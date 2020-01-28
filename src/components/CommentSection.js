@@ -49,14 +49,9 @@ const CommentSection = ({ id }) => {
     // Run only once
     if (window.localStorage.getItem('allComments')) {
       const commentsInLocalStorage = JSON.parse(window.localStorage.getItem('allComments'))
-      console.log('commentsInLocalStorage')
-      console.log(commentsInLocalStorage)
       dispatch({ type: 'INITILIZE_FROM_LOCAL_STORAGE', commentsInLocalStorage })
     }
   }, [])
-
-  console.log('comments')
-  console.log(comments)
 
   return (
     <div className='container comment'>
