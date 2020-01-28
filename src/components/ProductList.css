@@ -1,0 +1,92 @@
+.container {
+  width: 720px;
+  margin: 60px auto 20px; 
+  padding: 30px; 
+  background: #f9fcff; 
+  border-radius: 40px; 
+  box-shadow: 0 0 2px 1px rgba(0,0,0, 0.04);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+}
+
+.container-title {
+  text-align: center; 
+  font-size: 3.4em; 
+  margin: 0 0 12px;
+  font-weight: 900;
+  color: rgb(36, 36, 36);
+}
+
+.product-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #f0f8ff;
+  border-radius: 12px;
+  margin: 6px;
+  padding: 12px;
+}
+
+.product-item:hover {
+  cursor: pointer;
+  background: #e4f2fe;
+}
+
+.product-item-title {
+  flex: 0.6;
+  height: 100%;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+.product-image-thumb {
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+  flex: 0.2;
+  height: 100%;
+  min-height: 105px;
+  min-width: 105px;
+  max-height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image-thumb img {
+  max-width: 90%;
+  max-height: 100px;
+  display: block;
+}
+
+
+.product-item-price {
+  flex: 0.12;
+  border-radius: 10px;
+  background: #cfffbd;
+  color: #418528;
+  border: 2px solid #acf68e;
+  padding: 6px 6px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+      width: 94%;
+      margin: 30px auto 20px;
+  }
+  .container-title {
+    font-size: 2.4em;
+  }
+  .product-item-price {
+    flex: 0.15 1;
+  }
+}
