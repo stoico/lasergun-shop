@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { PropTypes } from 'prop-types'
 
-import avatar from '../static/images/avatar.svg'
+import Comment from './Comment'
 import './CommentSection.css'
 import './ProductList.css'
 import './ProductItem.css'
@@ -63,14 +63,9 @@ const CommentSection = ({ id }) => {
       <div className='product-heading'>
         <div className='comment-heading'>Comments</div>
       </div>
-      {comments.map((comment, index) => (
-        <div className='comment-box' key={index}>
-          <div className='comment-author-section'>
-            <span className='avatar-placeholder'><img src={avatar} alt='Profile icon' /></span>
-            <div className='comment-author'>{comment.author}</div>
-          </div>
-          <p>{comment.text}</p>
-        </div>))}
+      {comments.map((comment, index) =>
+        <Comment comment={comment} index={index} key={index} />
+      )}
       <hr />
       <label>Name</label>
       <input className='comment-input author' value={commentAuthor} type='text' onChange={onAuthorChange} placeholder='Name' />
