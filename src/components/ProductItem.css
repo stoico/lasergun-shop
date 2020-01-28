@@ -98,44 +98,41 @@ img.selected-image:hover {
   height: 65px;
 }
 
-.specification {
+.info-box {
   font-weight: lighter;
   margin: 12px 0;
-  background: #ffbde36e;
   border-radius: 12px;
 }
 
-.specification h3 {
+.info-box h3 {
   margin: 24px 0 0;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  padding: 12px 24px;
+  font-weight: bold;
+}
+
+.pink {
   background: #ffbdf4;
   color: #852876;
-  padding: 12px 24px;
-  font-weight: bold;
 }
 
-.description {
-  font-weight: lighter;
-  margin: 12px 0;
-  background: #bdeaff6e;
-  border-radius: 12px;
-}
-
-.specification p,
-.description p {
-  padding: 24px;
-  margin: 0;
-}
-
-.description h3 {
-  margin: 24px 0 0;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+.light-blue {
   background: #bdeaff;
   color: #285b85;
-  padding: 12px 24px;
-  font-weight: bold;
+}
+
+.bg-specification {
+  background: #ffbde36e;
+}
+
+.bg-description {  
+  background: #bdeaff6e;
+}
+
+.info-box p {
+  padding: 24px;
+  margin: 0;
 }
 
 @media only screen and (max-width: 700px) {
