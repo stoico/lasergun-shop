@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lasergun-shop/precache-manifest.e3173b8565e7f432e9e91cb7e217a14d.js"
+  "/lasergun-shop/precache-manifest.6ff955b11221be1708047abf4da4b536.js"
 );
 
 self.addEventListener('message', (event) => {

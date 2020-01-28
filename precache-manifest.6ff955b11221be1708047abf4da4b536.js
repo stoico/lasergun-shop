@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4a369f44cd589438e13f5188fdd65f8",
+    "revision": "fa252c7f14dc8dde0212d60f97ab398d",
     "url": "/lasergun-shop/index.html"
   },
   {
-    "revision": "62d4603407aa6182c31d",
-    "url": "/lasergun-shop/static/css/main.d9fa1a70.chunk.css"
+    "revision": "e097c0c4e6d8a689e209",
+    "url": "/lasergun-shop/static/css/main.e88b316d.chunk.css"
   },
   {
-    "revision": "27dd3c7f5b87d80058d5",
-    "url": "/lasergun-shop/static/js/2.93f9d472.chunk.js"
+    "revision": "cde2a967bd6a02b0f21d",
+    "url": "/lasergun-shop/static/js/2.efb7cc6a.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/lasergun-shop/static/js/2.93f9d472.chunk.js.LICENSE"
+    "url": "/lasergun-shop/static/js/2.efb7cc6a.chunk.js.LICENSE"
   },
   {
-    "revision": "62d4603407aa6182c31d",
-    "url": "/lasergun-shop/static/js/main.2ad66eb9.chunk.js"
+    "revision": "e097c0c4e6d8a689e209",
+    "url": "/lasergun-shop/static/js/main.348e297b.chunk.js"
   },
   {
     "revision": "95d9d92768516388c0b9",

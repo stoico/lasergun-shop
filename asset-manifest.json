@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/lasergun-shop/static/css/main.d9fa1a70.chunk.css",
-    "main.js": "/lasergun-shop/static/js/main.2ad66eb9.chunk.js",
-    "main.js.map": "/lasergun-shop/static/js/main.2ad66eb9.chunk.js.map",
+    "main.css": "/lasergun-shop/static/css/main.e88b316d.chunk.css",
+    "main.js": "/lasergun-shop/static/js/main.348e297b.chunk.js",
+    "main.js.map": "/lasergun-shop/static/js/main.348e297b.chunk.js.map",
     "runtime-main.js": "/lasergun-shop/static/js/runtime-main.640bd124.js",
     "runtime-main.js.map": "/lasergun-shop/static/js/runtime-main.640bd124.js.map",
-    "static/js/2.93f9d472.chunk.js": "/lasergun-shop/static/js/2.93f9d472.chunk.js",
-    "static/js/2.93f9d472.chunk.js.map": "/lasergun-shop/static/js/2.93f9d472.chunk.js.map",
+    "static/js/2.efb7cc6a.chunk.js": "/lasergun-shop/static/js/2.efb7cc6a.chunk.js",
+    "static/js/2.efb7cc6a.chunk.js.map": "/lasergun-shop/static/js/2.efb7cc6a.chunk.js.map",
     "index.html": "/lasergun-shop/index.html",
-    "precache-manifest.e3173b8565e7f432e9e91cb7e217a14d.js": "/lasergun-shop/precache-manifest.e3173b8565e7f432e9e91cb7e217a14d.js",
+    "precache-manifest.6ff955b11221be1708047abf4da4b536.js": "/lasergun-shop/precache-manifest.6ff955b11221be1708047abf4da4b536.js",
     "service-worker.js": "/lasergun-shop/service-worker.js",
-    "static/css/main.d9fa1a70.chunk.css.map": "/lasergun-shop/static/css/main.d9fa1a70.chunk.css.map",
-    "static/js/2.93f9d472.chunk.js.LICENSE": "/lasergun-shop/static/js/2.93f9d472.chunk.js.LICENSE",
+    "static/css/main.e88b316d.chunk.css.map": "/lasergun-shop/static/css/main.e88b316d.chunk.css.map",
+    "static/js/2.efb7cc6a.chunk.js.LICENSE": "/lasergun-shop/static/js/2.efb7cc6a.chunk.js.LICENSE",
     "static/media/avatar.svg": "/lasergun-shop/static/media/avatar.34601718.svg",
     "static/media/index.css": "/lasergun-shop/static/media/titillium-web-v8-latin-regular.f6af3afb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.640bd124.js",
-    "static/js/2.93f9d472.chunk.js",
-    "static/css/main.d9fa1a70.chunk.css",
-    "static/js/main.2ad66eb9.chunk.js"
+    "static/js/2.efb7cc6a.chunk.js",
+    "static/css/main.e88b316d.chunk.css",
+    "static/js/main.348e297b.chunk.js"
   ]
 }
