@@ -10,11 +10,10 @@ import CommentSection from './CommentSection'
 const ProductItem = () => {
   const history = useHistory()
   const dispatch = useDispatch()
+
   const [selectedImageURL, setSelectedImageURL] = useState('')
-  // Get product ID param passed in the URL
+  // Get product ID param passed in the URL, and convert from string to number
   let { id } = useParams()
-  // Param is passed as a String,
-  // convert to Number
   id = Number(id)
 
   // Get the first product of the array that matches the URL paramater
@@ -26,7 +25,6 @@ const ProductItem = () => {
     try {
       product = products.filter((eachProduct) => eachProduct.id === id)
     } catch (error) {
-
     }
   }
 
@@ -63,14 +61,14 @@ const ProductItem = () => {
               />
             ))}
           </div>
-          <div className='description'>
-            <h3>Description</h3>
+          <div className='info-box bg-description'>
+            <h3 className='light-blue'>Description</h3>
             <p>
               {product.description}
             </p>
           </div>
-          <div className='specification'>
-            <h3>Specification</h3>
+          <div className='info-box bg-specification'>
+            <h3 className='pink'>Specification</h3>
             <p>
               {product.specification}
             </p>
