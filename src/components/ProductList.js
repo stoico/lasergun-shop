@@ -17,7 +17,6 @@ const ProductList = () => {
 
   useEffect(() => {
     dispatch(fetchDataAsync())
-    console.log('called useEffect')
   }, [dispatch])
 
   return (
