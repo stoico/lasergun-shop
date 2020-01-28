@@ -1,0 +1,149 @@
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 0 20px;
+  justify-content: center;
+}
+
+.gallery img {
+  flex: 0.9;
+  max-width: 90px;
+  border-radius: 12px;
+  border: 4px solid transparent;
+  padding: 6px;
+}
+
+.gallery img:hover {
+  border: 4px solid #f0f0f0;
+  cursor: pointer;
+}
+
+
+img.selected-image {
+  border: 4px solid #bdeaff;
+}
+
+img.selected-image:hover {
+  border: 4px solid #bdeaff;
+}
+
+.image-displayed {
+  flex: 1;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.image-displayed img {
+  display: block;
+  border-radius: 12px;
+  height: 350px;
+  max-width: 100%;
+}
+
+.heading {
+  margin: 12px 0 24px;
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.go-back {
+  flex: 0.2;
+}
+
+.go-back button {
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+  background: #f0f0f0;
+  color: #292929;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: 1.2em;
+}
+
+.go-back button:hover {
+  background: #cfffbd;
+  border: none;
+}
+
+.product-heading {
+  font-weight: bolder;
+  font-size: 2em;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.9;
+}
+
+.price {
+  border-radius: 14px;
+  background: #cfffbd;
+  color: #418528;
+  border: 3px solid #acf68e;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 1.4em;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+}
+
+.specification {
+  font-weight: lighter;
+  margin: 12px 0;
+  background: #ffbde36e;
+  border-radius: 12px;
+}
+
+.specification h3 {
+  margin: 24px 0 0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background: #ffbdf4;
+  color: #852876;
+  padding: 12px 24px;
+  font-weight: bold;
+}
+
+.description {
+  font-weight: lighter;
+  margin: 12px 0;
+  background: #bdeaff6e;
+  border-radius: 12px;
+}
+
+.specification p,
+.description p {
+  padding: 24px;
+  margin: 0;
+}
+
+.description h3 {
+  margin: 24px 0 0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background: #bdeaff;
+  color: #285b85;
+  padding: 12px 24px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) {
+  .product-heading {
+    font-size: 1.4em;
+  }
+  .price {
+    padding: 4px 8px;
+    font-size: 1em;
+  }
+}
