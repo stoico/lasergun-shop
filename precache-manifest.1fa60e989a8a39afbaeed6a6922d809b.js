@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e554c699570f6d553a1ed5a4864dfe4",
+    "revision": "9007e1e601b4ee820417a28cab6c8bf1",
     "url": "/lasergun-shop/index.html"
   },
   {
-    "revision": "56c7c21b9d4c997c9f47",
+    "revision": "2248285bc10a99bd6e03",
     "url": "/lasergun-shop/static/css/main.d9fa1a70.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lasergun-shop/static/js/2.93f9d472.chunk.js.LICENSE"
   },
   {
-    "revision": "56c7c21b9d4c997c9f47",
-    "url": "/lasergun-shop/static/js/main.40681eab.chunk.js"
+    "revision": "2248285bc10a99bd6e03",
+    "url": "/lasergun-shop/static/js/main.d8569d21.chunk.js"
   },
   {
     "revision": "95d9d92768516388c0b9",
