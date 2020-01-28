@@ -12,7 +12,7 @@ export const fetchProductsFail = (error) => ({
 export function fetchDataAsync () {
   return async (dispatch) => {
     try {
-      const response = await fetch('http://private-5815fe-recommendationsknip.apiary-mock.com/products')
+      const response = await fetch('https://private-5815fe-recommendationsknip.apiary-mock.com/products')
       const productData = await response.json()
       dispatch(fetchProductsSuccess(productData))
     } catch (error) {
