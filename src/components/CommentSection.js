@@ -46,12 +46,12 @@ const CommentSection = ({ id }) => {
 
   useEffect(() => {
     // Retrieve data from localStorage and dispatch it to Redux
-    // Run only once
+    // Run only once, when mounting
     if (window.localStorage.getItem('allComments')) {
       const commentsInLocalStorage = JSON.parse(window.localStorage.getItem('allComments'))
       dispatch({ type: 'INITILIZE_FROM_LOCAL_STORAGE', commentsInLocalStorage })
     }
-  }, [])
+  }, [dispatch])
 
   return (
     <div className='container comment'>
