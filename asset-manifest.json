@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/lasergun-shop/static/css/main.d9fa1a70.chunk.css",
+    "main.js": "/lasergun-shop/static/js/main.40681eab.chunk.js",
+    "main.js.map": "/lasergun-shop/static/js/main.40681eab.chunk.js.map",
+    "runtime-main.js": "/lasergun-shop/static/js/runtime-main.640bd124.js",
+    "runtime-main.js.map": "/lasergun-shop/static/js/runtime-main.640bd124.js.map",
+    "static/js/2.93f9d472.chunk.js": "/lasergun-shop/static/js/2.93f9d472.chunk.js",
+    "static/js/2.93f9d472.chunk.js.map": "/lasergun-shop/static/js/2.93f9d472.chunk.js.map",
+    "index.html": "/lasergun-shop/index.html",
+    "precache-manifest.06784e5c43c937d5ade484138ee3bc47.js": "/lasergun-shop/precache-manifest.06784e5c43c937d5ade484138ee3bc47.js",
+    "service-worker.js": "/lasergun-shop/service-worker.js",
+    "static/css/main.d9fa1a70.chunk.css.map": "/lasergun-shop/static/css/main.d9fa1a70.chunk.css.map",
+    "static/js/2.93f9d472.chunk.js.LICENSE": "/lasergun-shop/static/js/2.93f9d472.chunk.js.LICENSE",
+    "static/media/avatar.svg": "/lasergun-shop/static/media/avatar.34601718.svg",
+    "static/media/index.css": "/lasergun-shop/static/media/titillium-web-v8-latin-regular.f6af3afb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.640bd124.js",
+    "static/js/2.93f9d472.chunk.js",
+    "static/css/main.d9fa1a70.chunk.css",
+    "static/js/main.40681eab.chunk.js"
+  ]
+}
