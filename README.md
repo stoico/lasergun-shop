@@ -6,7 +6,6 @@ React/Redux (e-commerce) web app with commenting functionality and data persiste
 http://stoico.github.io/lasergun-shop
 
 ## Preview
-
 ![Demo](webapp.gif)
 
 
